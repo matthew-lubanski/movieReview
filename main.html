@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+	<head>
+		<title>Movie Review</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<p id="login">Login</p>
+		<h1><img src="pictures/ticket2.jpg" style="width: 120px; height: 95px;" class="ticket"> <em>M</em>OVIE <em>M</em>ANIA <img src="pictures/ticket2.jpg" style="width: 120px; height: 95px;" class="ticket"></h1>
+		<h2 class="center">Please Leave a Review or Add a New Movie!</h2>
+		<a href="insert.html" class="add">Add New Movie </a>
+	</head>
+
+
+	<body>
+		<div class="movies">
+			<div class="movie">
+				<h3>Iron Man</h3>
+					<img src="pictures/ironman.jpg" alt="Iron Man" style="width: 300px; height:450px;" class="center">
+					<p id="rating">Rating:</p>
+					<div class="stars">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<p id="Description"> A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), with the world now aware that he is Iron Man, billionaire inventor Tony Stark faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts (Gwyneth Paltrow) and "Rhodey" Rhodes (Don Cheadle) by his side, Tony must forge new alliances and confront a powerful new enemy.</p>
+						<div class=stars>
+							<button class="open-button" onclick="openForm()">Leave a Review</button>
+							<div class="form-popup" id="myForm">
+							  <form class="form-container">
+							    <h2>Review</h2>
+
+							    <label for="rating"><b>Rating:</b></label>
+							    <select name="cars" id="cars" required>
+							      <option value="" selected disabled hidden> Please Select a Rating</option>
+								  <option value="5">5 - Amazing</option>
+								  <option value="4">4 - Good</option>
+								  <option value="3">3 - Okay</option>
+								  <option value="2">2 - Below Average</option>
+								  <option value="1">1 - Bad</option>
+								</select>
+									<div class="stars">
+								    <label for="review"><b>Additional Comments:</b></label>
+									</div>
+							    <textarea name="description" class="questions" style="width:250px; height:200px;"></textarea>
+							    <button type="submit" class="btn">Submit</button>
+							    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							  </form>
+							</div>
+						</div>
+			</div>
+
+			<div class="movie">
+				<h3>Interstellar</h3>
+					<img src="pictures/interstellar.jpg" alt="Iron Man" style="width: 300px; height:450px;" class="center">
+					<p id="rating">Rating:</p>
+					<div class="stars">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+					</div>
+					<p id="Description"> In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.</p>
+						<div class=stars>
+							<button class="open-button" onclick="openForm()">Leave a Review</button>
+							<div class="form-popup" id="myForm">
+							  <form class="form-container">
+							    <h2>Review</h2>
+
+							    <label for="rating"><b>Rating:</b></label>
+							    <select name="cars" id="cars" required>
+							      <option value="" selected disabled hidden> Please Select a Rating</option>
+								  <option value="5">5 - Amazing</option>
+								  <option value="4">4 - Good</option>
+								  <option value="3">3 - Okay</option>
+								  <option value="2">2 - Below Average</option>
+								  <option value="1">1 - Bad</option>
+								</select>
+									<div class="stars">
+								    <label for="review"><b>Additional Comments:</b></label>
+									</div>
+							    <textarea name="description" class="questions" style="width:250px; height:200px;"></textarea>
+							    <button type="submit" class="btn">Submit</button>
+							    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							  </form>
+							</div>
+						</div>
+			</div>
+
+			<div class="movie">
+				<h3>Avengers: Endgame</h3>
+					<img src="pictures/avengers.jpg" alt="Iron Man" style="width: 300px; height:450px;" class="center">
+					<p id="rating">Rating:</p>
+					<div class="stars">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<p id="Description"> When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's "dream team" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).</p>
+						<div class=stars>
+							<button class="open-button" onclick="openForm()">Leave a Review</button>
+							<div class="form-popup" id="myForm">
+							  <form class="form-container">
+							    <h2>Review</h2>
+
+							    <label for="rating"><b>Rating:</b></label>
+							    <select name="cars" id="cars" required>
+							      <option value="" selected disabled hidden> Please Select a Rating</option>
+								  <option value="5">5 - Amazing</option>
+								  <option value="4">4 - Good</option>
+								  <option value="3">3 - Okay</option>
+								  <option value="2">2 - Below Average</option>
+								  <option value="1">1 - Bad</option>
+								</select>
+									<div class="stars">
+								    <label for="review"><b>Additional Comments:</b></label>
+									</div>
+							    <textarea name="description" class="questions" style="width:250px; height:200px;"></textarea>
+							    <button type="submit" class="btn">Submit</button>
+							    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							  </form>
+							</div>
+						</div>
+			</div>
+
+			<div class="movie">
+				<h3>E.T</h3>
+					<img src="pictures/et.jpg" alt="Iron Man" style="width: 300px; height:450px;" class="center">
+					<p id="rating">Rating:</p>
+					<div class="stars">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<p id="Description"> After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott (Henry Thomas). Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie (Drew Barrymore), and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.</p>
+						<div class=stars>
+							<button class="open-button" onclick="openForm()">Leave a Review</button>
+							<div class="form-popup" id="myForm">
+							  <form class="form-container">
+							    <h2>Review</h2>
+
+							    <label for="rating"><b>Rating:</b></label>
+							    <select name="cars" id="cars" required>
+							      <option value="" selected disabled hidden> Please Select a Rating</option>
+								  <option value="5">5 - Amazing</option>
+								  <option value="4">4 - Good</option>
+								  <option value="3">3 - Okay</option>
+								  <option value="2">2 - Below Average</option>
+								  <option value="1">1 - Bad</option>
+								</select>
+									<div class="stars">
+								    <label for="review"><b>Additional Comments:</b></label>
+									</div>
+							    <textarea name="description" class="questions" style="width:250px; height:200px;"></textarea>
+							    <button type="submit" class="btn">Submit</button>
+							    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							  </form>
+							</div>
+						</div>
+			</div>
+
+			<div class="movie">
+				<h3>Million Dollar Baby</h3>
+					<img src="pictures/million_dollar_baby.jpg" alt="Iron Man" style="width: 300px; height:450px;" class="center">
+					<p id="rating">Rating:</p>
+					<div class="stars">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+					</div>
+					<p id="Description"> Frankie Dunn (Clint Eastwood) is a veteran Los Angeles boxing trainer who keeps almost everyone at arm's length, except his old friend and associate Eddie "Scrap Iron" Dupris (Morgan Freeman). When Maggie Fitzgerald (Hilary Swank) arrives in Frankie's gym seeking his expertise, he is reluctant to train the young woman, a transplant from working-class Missouri. Eventually, he relents, and the two form a close bond that will irrevocably change them both.</p>
+						<div class=stars>
+							<button class="open-button" onclick="openForm()">Leave a Review</button>
+							<div class="form-popup" id="myForm">
+							  <form class="form-container">
+							    <h2>Review</h2>
+
+							    <label for="rating"><b>Rating:</b></label>
+							    <select name="cars" id="cars" required>
+							      <option value="" selected disabled hidden> Please Select a Rating</option>
+								  <option value="5">5 - Amazing</option>
+								  <option value="4">4 - Good</option>
+								  <option value="3">3 - Okay</option>
+								  <option value="2">2 - Below Average</option>
+								  <option value="1">1 - Bad</option>
+								</select>
+									<div class="stars">
+								    <label for="review"><b>Additional Comments:</b></label>
+									</div>
+							    <textarea name="description" class="questions" style="width:250px; height:200px;"></textarea>
+							    <button type="submit" class="btn">Submit</button>
+							    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							  </form>
+							</div>
+						</div>
+			</div>
+
+		</div>
+			<script>
+				function openForm() {
+				  document.getElementById("myForm").style.display = "block";
+				}
+
+				function closeForm() {
+				  document.getElementById("myForm").style.display = "none";
+				}
+			</script>
+
+	</body>
