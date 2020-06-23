@@ -141,3 +141,6 @@ p#Description{
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+.pop-up-title{
+	color:black;
+}
